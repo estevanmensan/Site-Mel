@@ -57,3 +57,31 @@ footer { /*configura o rodapé*/
     bottom: 0;
     width: 100%
 }
+
+.mvv{
+    list-style: square;
+    /*justify-content: center;*/
+}
+
+.cards {
+    display: flex; /* coloca lado a lado */
+    justify-content: center; /* centraliza o conteúdo */
+    gap: 20px; /* espaço entre cards */
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffcb3b;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14;
+}
